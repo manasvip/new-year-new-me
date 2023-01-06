@@ -18,10 +18,26 @@ h5,
 h6 {
 	color: #151414;
 	font-weight: 700;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 24px;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
 }
 
 p {
 	margin-bottom: 16px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 /* Main container Style */
@@ -66,4 +82,24 @@ button {
 	font-size: 65px;
 	line-height: 76px;
 	margin-bottom: 24px;
+}
+
+/* Previous Year Styles */
+.previous-year {
+	padding: 130px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.previous-year img {
+	height: 600px;
+}
+.previous-year .text {
+	width: 365px;
+}
+.previous-year i {
+	color: #16d887;
+}
+.previous-year li {
+	line-height: 2.2;
 }
