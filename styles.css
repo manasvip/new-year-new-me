@@ -61,6 +61,16 @@ button {
 	background-color: #f15b22;
 	color: #fff;
 }
+.btn.secondary {
+	border-color: #fff;
+	color: #f15b22;
+}
+
+/* Section Heading */
+.section-heading {
+	text-align: center;
+	margin-bottom: 50px;
+}
 /* Header */
 .banner {
 	background-image: url(images/banner/banner2.png);
@@ -102,4 +112,42 @@ button {
 }
 .previous-year li {
 	line-height: 2.2;
+}
+
+/* My Plans Styles */
+.my-plans {
+	display: flex;
+	justify-content: center;
+}
+.my-plans h1 {
+}
+.plan {
+	text-align: center;
+	padding: 0 30px;
+}
+.plan h2 {
+	margin-bottom: 16px;
+}
+.plan p {
+	font-size: 25px;
+	color: #737272;
+}
+
+/* Call Now */
+.call-now {
+	background-image: linear-gradient(
+			to right,
+			#f15b22 0%,
+			rgba(241, 91, 34, 0) 100%
+		),
+		url(images/watch.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 64px;
+	border-radius: 8px;
+	margin: 130px 0;
+}
+.call-now h1 {
+	color: #fff;
+	width: 460px;
 }
