@@ -110,6 +110,39 @@ form input[type="button"] {
 	margin-bottom: 24px;
 }
 
+/* My Skills */
+.my-skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.my-skills .skill {
+	height: 200px;
+	width: 33.3%;
+	background-color: #16d887;
+	color: #f2f2f2;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.skill-name {
+	color: #fff;
+	margin-bottom: 20px;
+}
+.my-skills .skill.one {
+	background-color: #474787;
+}
+.my-skills .skill.two {
+	background-color: #34ace0;
+}
+.my-skills .skill.three {
+	background-color: #218c74;
+}
+
 /* Previous Year Styles */
 .previous-year {
 	padding: 130px 0;
