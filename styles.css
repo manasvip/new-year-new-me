@@ -70,12 +70,6 @@ button {
 	color: #f15b22;
 }
 
-/* Section Heading */
-.section-heading {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
 /* Form Styles */
 form input[type="text"],
 form input[type="email"],
@@ -85,6 +79,12 @@ form input[type="button"] {
 	border-radius: 8px;
 	padding: 20px;
 	margin-bottom: 16px;
+}
+
+/* Section Heading */
+.section-heading {
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 /* Header */
@@ -133,12 +133,15 @@ form input[type="button"] {
 	color: #fff;
 	margin-bottom: 20px;
 }
+
 .my-skills .skill.one {
 	background-color: #474787;
 }
+
 .my-skills .skill.two {
 	background-color: #34ace0;
 }
+
 .my-skills .skill.three {
 	background-color: #218c74;
 }
@@ -201,7 +204,7 @@ form input[type="button"] {
 	width: 460px;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
 	background-color: #151414;
 	color: #fff;
